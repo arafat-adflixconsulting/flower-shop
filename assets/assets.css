@@ -1,0 +1,57 @@
+/* Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Shared Styles */
+
+.primary-font {
+  font-family: Poppins;
+}
+
+.orange {
+  color: #e95a08;
+}
+
+header {
+  max-width: 1140px;
+  margin: 24px auto;
+}
+
+/* Nav Section */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 550px;
+}
+
+.logo {
+  width: 135px;
+  height: 82px;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 48px;
+}
+
+.nav-items a {
+  text-decoration: none;
+  align-items: baseline;
+  color: black;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 143px;
+  margin-bottom: 120px;
+}
+
+.banner h1 {
+  font-size: 65px;
+  font-weight: 700;
+  letter-spacing: 0%;
+}
