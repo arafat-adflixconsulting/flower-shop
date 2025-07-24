@@ -180,7 +180,6 @@ nav {
   grid-template-columns: 1fr 2fr;
   gap: 15px;
   margin: 120px auto 0;
-  border: 2px solid purple;
 }
 
 .offer-left {
@@ -241,4 +240,52 @@ nav {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
+}
+
+/* Newsletter Section styls */
+
+.subscribe-section {
+  background-image: url("./news-letter-bg.png");
+  background-repeat: no-repeat;
+  margin: 120px auto;
+  max-width: 1440px;
+  height: 533px;
+  align-items: center;
+}
+.subscribe-section h1 {
+  text-align: center;
+  background-color: transparent;
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  padding-top: 150px;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: auto;
+  background-color: transparent;
+  padding-bottom: 150px;
+}
+
+.subscribe-form input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  padding: 8px 20px 8px 20px;
+}
+
+.subscribe-form button {
+  width: 20%;
+  height: 67px;
+  border: none;
+  background: rgb(233, 90, 8);
+  color: white;
+}
+
+.subscribe-form button:hover {
+  background-color: green;
 }
