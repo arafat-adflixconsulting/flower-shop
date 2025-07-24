@@ -31,7 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 550px;
+  gap: 500px;
 }
 
 .logo {
@@ -76,6 +76,10 @@ nav {
   font-size: 22px;
   margin-bottom: auto;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.banner img {
+  border: 1px dotted gray;
 }
 
 /* Products Section */
@@ -325,4 +329,41 @@ nav {
   gap: 32px;
   display: flex;
   flex-direction: row;
+}
+
+/* Moblie responsive max - 576 */
+
+@media screen and (max-width: 576px) {
+  nav {
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .nav-menu a {
+    visibility: collapse;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .products-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .trusted-container {
+    flex-direction: column;
+  }
+  .offer-section {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .subscribe-form {
+    max-width: 400px;
+  }
+  .subscribe-section h1 {
+    font-size: 30px;
+  }
+  .footer-container {
+    flex-direction: column;
+  }
 }
