@@ -16,10 +16,13 @@
   color: #e95a08;
 }
 
+.max-1140 {
+  max-width: 1140px;
+}
+
 header {
   max-width: 1140px;
-  margin: 24px auto;
-  border: 2px solid red;
+  margin: 0 auto;
 }
 
 /* Nav Section */
@@ -49,6 +52,10 @@ nav {
   color: black;
 }
 
+.nav-items a:hover {
+  color: green;
+}
+
 /* Banner Section */
 
 .banner {
@@ -61,6 +68,14 @@ nav {
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0%;
+  margin: 0;
+}
+
+.banner p {
+  margin-top: 10px;
+  font-size: 22px;
+  margin-bottom: auto;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* Products Section */
@@ -110,4 +125,53 @@ nav {
   color: white;
   background: rgb(233, 90, 8);
   border: none;
+}
+
+.flower button:hover {
+  color: white;
+  background: green;
+}
+
+/* Flower and plant lover styls */
+
+.trusted-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px auto 0;
+  gap: 60px;
+  border: 2px solid purple;
+}
+
+.trusted-content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+.trusted-content li {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  font-weight: 400;
+  margin: 15px;
+}
+
+/* Latest Deals Styls */
+
+.latest-deal {
+  margin: 133px auto 0;
+  border: 2px solid purple;
+}
+
+.latest-deal h1 {
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+}
+
+.latest-deal p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
 }
