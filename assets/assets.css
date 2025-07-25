@@ -143,6 +143,21 @@ nav {
   align-items: center;
   margin: 150px auto 0;
   gap: 60px;
+  position: relative;
+}
+
+.trusted-badge {
+  background: transparent;
+  width: 200px;
+  height: 200px;
+  left: 497px;
+  top: 2072px;
+  transform: translate(-1225%, -155%);
+}
+.trusted-badge img {
+  position: absolute;
+  width: 400%;
+  background: transparent;
 }
 
 .trusted-content h1 {
@@ -354,6 +369,15 @@ nav {
   .trusted-container {
     flex-direction: column;
   }
+
+  .trusted-badge img {
+    visibility: collapse;
+  }
+
+  .latest-deal {
+    margin: 0 auto;
+  }
+
   .offer-section {
     grid-template-columns: repeat(1, 1fr);
   }
